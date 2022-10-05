@@ -1,6 +1,6 @@
-  @charset "UTF-8";
-  /*---MENU----*/
-  body,ul,li,p {
+@charset "UTF-8";
+/*---MENU----*/
+body,ul,li,p {
     margin: 0px;
     padding: 0px;
     list-style: none;
@@ -45,19 +45,5 @@ img {
     padding: 10px;
 }
 /*---MENU END--*/
-/* Quando tiver interação entre coluna e linha, use o css grid layout*/
 
-
-/*CSS flexbox 1 */
-
-.flex {
-    display: flex;
-   flex-wrap: wrap;
-   max-width: 800px;
-   margin: auto;
-}
-
-.flex > div {
-    flex: 1 1 200px;/*veja no respositorio do curso*/
-    margin: 10px;
-}
+/*CSS GRID 1 */
